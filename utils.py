@@ -1,1 +1,9 @@
-ECHO가 설정되어 있습니다.
+import math
+
+def pythagoras(a,b):
+    c = math.sqrt(a**2 + b**2)
+    return c
+
+def circle(r):
+    area = math.pi * (r**2)
+    return area
